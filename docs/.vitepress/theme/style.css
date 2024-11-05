@@ -1,0 +1,41 @@
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: #42b983;
+    color: white;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.25rem;
+    margin: 1rem 0 2rem;
+}
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.action-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.action-button.primary {
+    background-color: #35495e;
+}
+.action-button {
+    background-color: #42b983;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+.feature {
+    max-width: 200px;
+    text-align: center;
+}
